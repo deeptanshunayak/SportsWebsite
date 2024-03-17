@@ -1,0 +1,10 @@
+.container-style{
+    height: 100%;
+    position: relative;
+}
+.box1{
+    background-color: #DADADA;
+    width: 126px ;
+    height: 108px ;
+    box-sizing: border-box;
+  }
