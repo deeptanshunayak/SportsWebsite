@@ -4,6 +4,7 @@ import web from './Images/page1.svg'
 import web1 from './Images/Item.svg'
 import web2 from './Images/Item (1).svg'
 import web3 from './Images/Item (2).svg'
+import v from './Images/about.png'
 export default function About1() {
     return (
 
@@ -23,9 +24,12 @@ export default function About1() {
             </div>
             <div class="container">
                 <div className='row pt-5'>
+                
+                        <h1 className=''><img src={v}></img></h1>
+                       
                     <div className='col'>
 
-                        <h1 className='text-left pb-5'>About Us</h1>
+                       
                         <p>The A4SBA  aims to encourage sports all over the country, thus allowing the population to harness the power of sports through its cross-cutting influence, namely,holistic development of children & youth, community development, social integration, gender equality, healthy lifestyle, national pride and economic opportunities related to sports development.</p>
                     </div>
                     <div className='col ps-3'>

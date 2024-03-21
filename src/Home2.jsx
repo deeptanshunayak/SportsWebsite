@@ -21,6 +21,9 @@ import s19 from './Images/19.svg'
 import s20 from './Images/20.svg'
 import s21 from './Images/21.svg'
 import s22 from './Images/22.svg'
+import s23 from './Images/23.svg'
+import s24 from './Images/24.svg'
+import s25 from './Images/25.svg'
 const Home2 = () => {
     return (
         <>
@@ -44,18 +47,18 @@ const Home2 = () => {
                                     <img src={s4}></img>
                                 </div>
                                 <div className='col'>
-                                    
+
                                 </div>
                                 <div className='col'>
-                                    
+
                                 </div>
                                 <div className='col'>
-                                    
+
                                 </div>
                                 <div className='col'>
-                                    
+
                                 </div>
-                               
+
 
                             </div>
                             <div className='row'>
@@ -79,12 +82,41 @@ const Home2 = () => {
                                     <img src={s10}></img>
                                 </div>
                                 <div className='col'>
-                                   
+
                                 </div>
                                 <div className='col'>
-                                   
-                                   </div>
-                                   
+
+                                </div>
+
+
+                            </div>
+                            <div className='row'>
+                                <h3 className='text-light pt-5'>Throws</h3>
+                                <div className='col'>
+                                    <img src={s11}></img>
+                                </div>
+                                <div className='col'>
+                                    <img src={s12}></img>
+                                </div>
+                                <div className='col'>
+                                    <img src={s13}></img>
+                                </div>
+                                <div className='col'>
+                                    <img src={s14}></img>
+                                </div>
+                                <div className='col'>
+
+                                </div>
+                                <div className='col'>
+
+                                </div>
+                                <div className='col'>
+
+                                </div>
+                                <div className='col'>
+
+                                </div>
+
 
                             </div>
                             <div className='row'>
@@ -114,38 +146,46 @@ const Home2 = () => {
                                     <img src={s22}></img>
                                 </div>
 
-
                             </div>
                             <div className='row'>
-                                <h3 className='text-light pt-5'>Throws</h3>
+                                <h3 className='text-light pt-5'>Atheletics Track</h3>
                                 <div className='col'>
-                                    <img src={s11}></img>
+                                    <img src={s23}></img>
                                 </div>
                                 <div className='col'>
-                                    <img src={s12}></img>
+                                    <p className='text-light'>sprint</p>
+                                    <p className='text-light'>Middle Distance</p>
+                                    <p className='text-light'>Long Distance</p>
                                 </div>
                                 <div className='col'>
-                                    <img src={s13}></img>
+                                    <p className='text-light'>60m,100m,200m,400m</p>
+                                    <p className='text-light'>800m,1500m,3000m</p>
+                                    <p className='text-light'>5000m,10000m</p>
                                 </div>
                                 <div className='col'>
-                                    <img src={s14}></img>
+                                    <img src={s24}></img>
                                 </div>
                                 <div className='col'>
-                                   
+                                    <p className='text-light'></p>
+                                    <p className='text-light'>60m,100m,110m,400m</p>
+                                    <p className='text-light'></p>
+
                                 </div>
                                 <div className='col'>
-                                   
-                                   </div>
-                                   <div className='col'>
-                                   
-                                   </div>
-                                   <div className='col'>
-                                   
-                                   </div>
+                                    <img src={s25}></img>
+                                </div>
+                                <div className='col'>
+                                    <p></p>
+                                    <p className='text-light'>4x100m,4x400m</p>
+                                    <p></p>
+                                </div>
+                                <div className='col'>
+
+                                </div>
 
                             </div>
                         </div>
-                        
+
                     </div>
 
                 </div>

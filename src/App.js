@@ -37,7 +37,7 @@ function App() {
    <Vision></Vision>
    <Scouting></Scouting>
    <Home2></Home2>
-   
+   <Form></Form>
     </div>
   );
 }

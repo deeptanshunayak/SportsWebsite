@@ -1,13 +1,16 @@
 import React from 'react'
 import web from './Images/vision.svg'
+import v from './Images/vision.png'
 export default function Vision() {
   return (
     <>
     <div className='overflow1'>
         <div className='container pt-5'>
             <div className='row'>
-                <div className='col pb-3'>
-                    <h1 className='pb-4'>Our Vision</h1>
+            <h1 className=''><img src={v}></img></h1>
+           
+                <div className='col pb-3 pt-5'>
+               
                     <h6>To make India stand out as a nation of champions, with sport as in integral ingredient of education. 
                     To help India make winning a habit, to encourage sporting talent and to promote and celebrate success 
                     across wide range of sport.</h6>

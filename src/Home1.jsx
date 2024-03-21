@@ -4,15 +4,17 @@ import image1 from './Images/b2.svg'
 import image2 from './Images/b3.svg'
 import image3 from './Images/b4.svg'
 import medal from './Images/Medal.svg'
+import v from './Images/young.png'
 const Home1 = () => {
     return (
         <>
-            <div className='overflow1'>
+            <div className='overflow1 hero'>
                 <div class="container pt-5">
                     <div className='row'>
+                        
                         <div className='col'>
                             <h4 className='setcolor'>Know About Our Organisations</h4>
-                            <h1 className='text-left'>Let's Retain & Grow <br />Young talent</h1>
+                            <h1><img src={v}></img></h1>
                             <p>The A4SBA  aims to encourage sports all over the country, thus allowing the population to harness the power of sports through its cross-cutting influence, namely,holistic development of children & youth, community development, social integration, gender equality, healthy lifestyle, national pride and economic opportunities related to sports development.</p>
 
                             <p className='pt-5'>We Focus on:</p>

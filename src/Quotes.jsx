@@ -4,7 +4,7 @@ export default function Quotes() {
     return (
         <>
             <div className='overflow1'>
-                <div className=''>
+                <div className='pb-5 pt-5'>
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">

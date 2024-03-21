@@ -105,7 +105,10 @@ font-family: 'Outfit';
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  height: 130vh;
+  height: 160vh;
+}
+.backer{
+  background-color: #E2EEE0;
 }
 .backf{
   background-image: url('./Images/flag.svg');
@@ -119,6 +122,17 @@ font-family: 'Outfit';
   font-weight: 400;
   line-height: 72px;
 }
+.aligner{
+  margin: 0;
+  padding: 0;
+}
+.hero{
+  background-color: #F5F8FA;
+}
+.setter{
+  color: #FC7813;
+}
+
 .back1{
   background-color: black;
 }
