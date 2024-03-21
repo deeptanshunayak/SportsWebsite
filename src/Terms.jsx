@@ -7,7 +7,7 @@ export default function Terms() {
     <div className='overflow1 hero'>
       <Navbar1></Navbar1>
       <div className='container'>
-        <div className='row'>
+        <div className='row pt-5'>
           <h1><img src={terms}></img></h1>
         <ol>
   <li>'A4SBA Scholarship Programme’ (Hereinafter ‘the Scholarship Program’) is being conducted by A4SBA. ("A4SBA" / "Company") from APRIL 5, 2024 to March 31, 2025 ("Scholarship offer period") and is open for India Nationals Only.</li>
