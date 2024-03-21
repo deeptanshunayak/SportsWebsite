@@ -106,7 +106,10 @@ font-family: "Outfit", sans-serif;
   color: #FFE132 !important;
 }
 .padder{
-  padding-left: 8rem !important;
+  padding-left: 4rem !important;
+}
+.padder1{
+  padding-left: 7rem !important;
 }
 .imager{
   padding-left: 8rem !important;
@@ -239,6 +242,14 @@ font-family: "Outfit", sans-serif;
 
 .button-17:disabled {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+@media only screen and (max-width: 1260px){
+  .align{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 42px;
+    font-family: "Montserrat", sans-serif;
+  }
 }
 @media only screen and (max-width: 760px){
   .image-align{

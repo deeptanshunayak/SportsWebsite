@@ -42,7 +42,7 @@ export default function About1() {
                 <div className='row align-items-center'>
                     <h1 className='text-center pt-5 pb-3'>Helping</h1>
                     <div className='col'>
-                        <div className='text-center padder'>
+                        <div className='text-center padder1'>
                             <div className='circle'>
                                 <h1 className='text-center text-light padd'> <Count start={0} end={87} duration={2} delay={3} />% </h1>
                             </div>
@@ -51,7 +51,7 @@ export default function About1() {
                         <br></br>
                     </div>
                     <div className='col'>
-                        <div className='text-center padder'>
+                        <div className='text-center padder1'>
                             <div className='circle'>
                                 <h1 className='text-center text-light padd'> <Count start={0} end={50} duration={2} delay={3} />% </h1>
                             </div>
@@ -59,7 +59,7 @@ export default function About1() {
                         <p className='pt-3 texter'>Helping 50% of sportspersons who faces challenges like lack of coaches, equipment and physical infrastructure.</p>
                     </div>
                     <div className='col'>
-                        <div className='text-center padder'>
+                        <div className='text-center padder1'>
                             <div className='circle'>
                                 <h1 className='text-center text-light padd'> <Count start={0} end={87} duration={2} delay={3} />% </h1>
                             </div>

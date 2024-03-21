@@ -20,26 +20,26 @@ const Home1 = () => {
                             <p className='pt-5'>We Focus on:</p>
                             <div className='row'>
                                 <div className='col'>
-                                    <img src={image}></img>
+                                    <img src={image} className='img-fluid'></img>
                                     <p className='text-left'>Health</p>
                                 </div>
                                 <div className='col'>
-                                    <img src={image1}></img>
+                                    <img src={image1} className='img-fluid'></img>
                                     <p className='text-left'>Education</p>
                                 </div>
                                 <div className='col'>
-                                    <img src={image2}></img>
+                                    <img src={image2} className='img-fluid'></img>
                                     <p className='text-left'>Livlihood</p>
                                 </div>
                                 <div className='col'>
-                                    <img src={image3}></img>
+                                    <img src={image3} className='img-fluid'></img>
                                     <p className='text-left'>Empowerment</p>
                                 </div>
                                 
                             </div>
                         </div>
                         <div className='col pt-3'>
-                            <img src={medal} className=''></img>
+                            <img src={medal} className='img-fluid'></img>
                         </div>
                     </div>
                 </div>
