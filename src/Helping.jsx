@@ -6,7 +6,7 @@ export default function Helping() {
     <div className='overflow1'>
       <div class="container text-center">
         <div className='row align-items-center'>
-          <h1 className='text-center pt-5 pb-3'>Helping</h1>
+          <h1 className='text-center pt-5 pb-3 mt-5'>Helping</h1>
           <div className='col'>
             <div className='text-center padder'>
               <div className='circle'>
@@ -14,6 +14,7 @@ export default function Helping() {
               </div>
             </div>
             <p className='pt-3 texter'>Helping 87% of sportspersons who below age of 10</p>
+            <br></br>
           </div>
           <div className='col'>
             <div className='text-center padder'>

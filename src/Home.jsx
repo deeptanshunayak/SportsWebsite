@@ -4,14 +4,29 @@ import web from '../src/Images/Image4.png'
 import web1 from '../src/Images/image.png'
 import web2 from '../src/Images/Image5.png'
 import web3 from '../src/Images/Imageadd.svg'
-
+import v1 from '../src/Images/Item.svg'
+import v2 from '../src/Images/Item (1).svg'
+import v3 from '../src/Images/Item (2).svg'
 const Home = () => {
 
   return (
     <>
       <div className='overflow1'>
+      <div className='back1'>
+                <div class="container">
+                    <div className='row pt-3 pb-3'>
+
+                        <div className='col ps-5'><img src={v1}></img></div>
+                        <div className='col pe-5'><p className='text-light'>The Strand,14 sector Faridabad,Haryana</p></div>
+                        <div className='col ps-5'><img src={v2}></img></div>
+                        <div className='col pe-5'><p className='text-light'>You may send an email,helpus24@gmail.com</p></div>
+                        <div className='col ps-5'><img src={v3}></img></div>
+                        <div className='col pe-5'><p className='text-light'>Helpline and support,8857002451</p></div>
+                    </div>
+                </div>
+            </div>
         <div className='row'>
-         <Navbar></Navbar>
+         <Navbar className='pt-5'></Navbar>
           <div className='col-12 mx-auto'>
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
              

@@ -1,25 +1,9 @@
-import React, { useState } from 'react'
-import { NavLink } from "react-router-dom";
+import React from 'react'
 import web1 from './Images/Brand logo.svg'
-import { GiHamburgerMenu } from "react-icons/gi";
-import './Navbar.css'
-
-const Navbar = () => {
-  const [showMediaIcons, setShowMediaIcons] = useState(false);
-  const [color,setcolor]=useState(false);
-  const changecolor=()=>{
-    if(window.scrollY>=90){
-      setcolor(true)
-    }
-    else{
-      setcolor(false)
-    }
-  }
-  window.addEventListener('scroll',changecolor)
-  return (
-    <>
-   
-      <nav class={color?' navbar navbar-expand-lg d-none':' navbar navbar-expand-lg fixed-top'} data-bs-theme="dark">
+export default function Navbar1() {
+    return (
+        <>
+        <nav class=' navbar navbar-expand-lg bg-black ' data-bs-theme="dark">
         <div class="container-fluid">
           <img src={web1} className='imager'></img>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +42,5 @@ const Navbar = () => {
       </nav>
 
     </>
-  )
+    )
 }
-
-export default Navbar

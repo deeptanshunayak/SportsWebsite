@@ -14,6 +14,9 @@ import About1 from './About1.jsx';
 import Vision from './Vision.jsx';
 import Quotes from './Quotes.jsx';
 import Mission from './Mission.jsx';
+import Page from './Page.jsx';
+import Page1 from './Page1.jsx';
+import Terms from './Terms.jsx';
 function App() {
   return (
     <div className="App">
@@ -21,23 +24,14 @@ function App() {
       
       <Routes>
      
-      <Route path='/' Component={Home}/>
-     
-    
+      <Route path='/' Component={Page1}/>
+      <Route path='/page' Component={Page}/>
+      <Route path='/tc' Component={Terms}/>
       
       
      </Routes>
    </switch>
-   <Helping></Helping>
-   <Home1></Home1>
-   <About></About>
-   <Quotes></Quotes>
-   <About1></About1>
-   <Mission></Mission>
-   <Vision></Vision>
-   <Scouting></Scouting>
-   <Home2></Home2>
-   <Form></Form>
+   
     </div>
   );
 }
