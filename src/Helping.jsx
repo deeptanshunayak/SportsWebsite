@@ -13,7 +13,7 @@ export default function Helping() {
                 <h1 className='text-center text-light padd'> <Count start={0} end={87} duration={2} delay={3} />% </h1>
               </div>
             </div>
-            <p className='pt-3 texter'>Helping 87% of sportspersons who below age of 10</p>
+            <p className='pt-3 texter w3-animate-left'>Helping 87% of sportspersons who below age of 10</p>
             <br></br>
           </div>
           <div className='col'>
@@ -22,7 +22,7 @@ export default function Helping() {
                 <h1 className='text-center text-light padd'> <Count start={0} end={50} duration={2} delay={3} />% </h1>
               </div>
             </div>
-            <p className='pt-3 texter'>Helping 50% of sportspersons who faces challenges like lack of coaches, equipment and physical infrastructure.</p>
+            <p className='pt-3 texter w3-animate-bottom'>Helping 50% of sportspersons who faces challenges like lack of coaches, equipment and physical infrastructure.</p>
           </div>
           <div className='col'>
             <div className='text-center padder1'>
@@ -30,7 +30,7 @@ export default function Helping() {
                 <h1 className='text-center text-light padd'> <Count start={0} end={87} duration={2} delay={3} />% </h1>
               </div>
             </div>
-            <p className='pt-3 texter'>Helping 87% of sportspersons who starts playing after age of 10 which is late for certain sports</p>
+            <p className='pt-3 texter w3-animate-bottom'>Helping 87% of sportspersons who starts playing after age of 10 which is late for certain sports</p>
           </div>
         </div>
       </div>

@@ -185,6 +185,9 @@ font-family: "Outfit", sans-serif;
 .displayer{
   display: block;
 }
+.displayer1{
+  display: none;
+}
 .fade-in { animation: fadeIn 5s; }
 @keyframes fadeIn {
   0% { opacity: 0; }
@@ -261,6 +264,9 @@ font-family: "Outfit", sans-serif;
 .text-align1{
   text-align: end;
 }
+.text-align2{
+  text-align: center;
+}
 .p1{
   padding-left: 2.5rem;
 }
@@ -321,6 +327,9 @@ font-family: "Outfit", sans-serif;
     .text-align1{
       text-align: center !important;
     }
+    .text-align2{
+      text-align: left;
+    }
     .p1{
       text-align: center;
       padding-left: 0px;
@@ -330,6 +339,9 @@ font-family: "Outfit", sans-serif;
     }
     .displayer{
       display: none;
+    }
+    .displayer1{
+      display: block;
     }
     
 }
