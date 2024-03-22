@@ -149,6 +149,10 @@ font-family: "Outfit", sans-serif;
 .backer{
   background-color: #E2EEE0;
 }
+.super{
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
 .backf{
   background-image: url('./Images/flag.svg');
   background-repeat: no-repeat;

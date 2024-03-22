@@ -145,6 +145,7 @@ const Home2 = () => {
                                 <div className='col ps-4 pt-2'>
                                     <img src={s22}></img>
                                 </div>
+                                <div className='col ps-4 pt-2'></div>
 
                             </div>
                             <div className='row'>
@@ -153,30 +154,26 @@ const Home2 = () => {
                                     <img src={s23}></img>
                                 </div>
                                 <div className='col'>
-                                    <p className='text-light'>Sprint</p>
-                                    <p className='text-light'>Middle Distance</p>
-                                    <p className='text-light'>Long Distance</p>
+                                    <p className='text-light super'>Sprint-60m,100m,200m,400m</p>
+                                    <p className='text-light super'>Middle Distance-800m,1500m,3000m</p>
+                                    <p className='text-light super'>Long Distance-5000m,10000m</p>
                                 </div>
-                                <div className='col'>
-                                    <p className='text-light'>60m,100m,200m,400m</p>
-                                    <p className='text-light'>800m,1500m,3000m</p>
-                                    <p className='text-light'>5000m,10000m</p>
-                                </div>
-                                <div className='col'>
+                               
+                                <div className='col-6 col-sm-2 ps-2'>
                                     <img src={s24}></img>
                                 </div>
                                 <div className='col'>
                                     <p></p>
-                                    <p className='text-light text-left'>60m,<br className='displayer1'></br>100m,<br className='displayer1'></br>110m,<br className='displayer1'></br>400m</p>
+                                    <p className='text-light text-left super'>60m,100m,110m,400m</p>
                                     <p></p>
 
                                 </div>
-                                <div className='col'>
+                                <div className='col-6 col-sm-2'>
                                     <img src={s25}></img>
                                 </div>
                                 <div className='col'>
                                     <p></p>
-                                    <p className='text-light'>4x100m,<br className='displayer1'></br>4x400m</p>
+                                    <p className='text-light super'>4x100m,4x400m</p>
                                     <p></p>
                                 </div>
                                 <div className='col'>
