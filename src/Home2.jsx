@@ -167,7 +167,7 @@ const Home2 = () => {
                                 </div>
                                 <div className='col'>
                                     <p></p>
-                                    <p className='text-light text-left'>60m<br className='displayer1'></br>100m<br className='displayer1'></br>110m<br className='displayer1'></br>400m</p>
+                                    <p className='text-light text-left'>60m,<br className='displayer1'></br>100m,<br className='displayer1'></br>110m,<br className='displayer1'></br>400m</p>
                                     <p></p>
 
                                 </div>
