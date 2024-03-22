@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <>
    
-      <nav class={color?' navbar navbar-expand-lg d-none':' navbar navbar-expand-lg fixed-top'} data-bs-theme="dark">
+      <nav class={color?' navbar navbar-expand-lg d-none':' navbar navbar-expand-lg navb fixed-top'} >
         <div class="container-fluid">
           <img src={web1} className='imager'></img>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

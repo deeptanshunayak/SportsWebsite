@@ -15,13 +15,10 @@ const Home = () => {
       <div className='back1'>
                 <div class="container">
                     <div className='row pt-3 pb-3'>
-
-                        <div className='col ps-5'><img src={v1}></img></div>
-                        <div className='col pe-5'><p className='text-light'>The Strand,14 sector Faridabad,Haryana</p></div>
-                        <div className='col ps-5'><img src={v2}></img></div>
-                        <div className='col pe-5'><p className='text-light'>You may send an email,helpus24@gmail.com</p></div>
-                        <div className='col ps-5'><img src={v3}></img></div>
-                        <div className='col pe-5'><p className='text-light'>Helpline and support,8857002451</p></div>
+                      <div className='col-6 col-sm-4'><p className='text-light'><img src={v1}></img>&nbsp;The Strand 14 Sector,Faridabad,Haryana</p></div>
+                      <div className='col-6 col-sm-4'><p className='text-light'><img src={v2}></img>&nbsp;Send an email,helpus24@gmail.com</p></div>
+                      <div className='col-6 col-sm-4'><p className='text-light'><img src={v3}></img>&nbsp;Helpline and Support-8857002451</p></div>
+                        
                     </div>
                 </div>
             </div>
@@ -38,8 +35,8 @@ const Home = () => {
                  
                   <div class="carousel-caption top-0 d-md-block">
                   <div className='col-6'>
-                    <h1 className='hfixer'>Let's Retain & Grow Young talent</h1>
-                    <p className='pfixer'>The A4SBA  aims to encourage sports all over the country, thus allowing the population to harness the power of sports through its cross-cutting influence, namely,holistic development of children & youth.</p>
+                    <h1 className='hfixer fade-in'>Let's Retain & Grow Young talent</h1>
+                    <p className='pfixer fade-in'>The A4SBA  aims to encourage sports all over the country, thus allowing the population to harness the power of sports through its cross-cutting influence, namely,holistic development of children & youth.</p>
                     </div>
                     
                   </div>
@@ -49,8 +46,8 @@ const Home = () => {
                   <img src={web1} class="d-block w-100 sizing image-align" alt="..." />
                   <div class="carousel-caption top-0 d-md-block">
                     <div className='col-6'>
-                    <h1 className='hfixer'>Let's Retain & Grow Young talent</h1>
-                    <p className='pfixer'>The A4SBA  aims to encourage sports all over the country, thus allowing the population to harness the power of sports through its cross-cutting influence, namely,holistic development of children & youth.</p>
+                    <h1 className='hfixer fade-in'>Let's Retain & Grow Young talent</h1>
+                    <p className='pfixer fade-in'>The A4SBA  aims to encourage sports all over the country, thus allowing the population to harness the power of sports through its cross-cutting influence, namely,holistic development of children & youth.</p>
                     </div>
                   </div>
                 </div>
@@ -59,8 +56,8 @@ const Home = () => {
                   <img src={web2} class="d-block w-100 sizing image-align" alt="..." />
                   <div class="carousel-caption top-0 d-md-block">
                   <div className='col-6'>
-                    <h1 className='hfixer'>Let's Retain & Grow Young talent</h1>
-                    <p className='pfixer'>The A4SBA  aims to encourage sports all over the country, thus allowing the population to harness the power of sports through its cross-cutting influence, namely,holistic development of children & youth.</p>
+                    <h1 className='hfixer fade-in'>Let's Retain & Grow Young talent</h1>
+                    <p className='pfixer fade-in'>The A4SBA  aims to encourage sports all over the country, thus allowing the population to harness the power of sports through its cross-cutting influence, namely,holistic development of children & youth.</p>
                     </div>
                   </div>
                 </div>

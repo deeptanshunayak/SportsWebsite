@@ -10,12 +10,12 @@ export default function About() {
                     
                         <h1 className=''><img src={v}></img></h1>
                         
-                        <div className='col-5'>
+                        <div className='col-12 col-sm-5'>
                         <p className='textboom'>The A4SBA  aims to encourage sports all over the country, thus allowing the population to harness the power of sports through its cross-cutting influence, namely,holistic development of children & youth, community development, social integration, gender equality, healthy lifestyle, national pride and economic opportunities related to sports development.
 </p>
                         </div>
                         
-                        <div className='col-7'>
+                        <div className='col-12 col-sm-7'>
                             <img src={image} className='img-fluid'></img>
                         </div>
                         </div>         

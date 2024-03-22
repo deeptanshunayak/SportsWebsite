@@ -14,12 +14,9 @@ export default function About1() {
                 <div class="container">
                     <div className='row pt-3 pb-3'>
 
-                        <div className='col ps-5'><img src={web1}></img></div>
-                        <div className='col pe-5'><p className='text-light'>The Strand,14 sector Faridabad,Haryana</p></div>
-                        <div className='col ps-5'><img src={web2}></img></div>
-                        <div className='col pe-5'><p className='text-light'>You may send an email,helpus24@gmail.com</p></div>
-                        <div className='col ps-5'><img src={web3}></img></div>
-                        <div className='col pe-5'><p className='text-light'>Helpline and support,8857002451</p></div>
+                    <div className='col-6 col-sm-4'><p className='text-light'><img src={web1}></img>&nbsp;The Strand 14 Sector,Faridabad,Haryana</p></div>
+                      <div className='col-6 col-sm-4'><p className='text-light'><img src={web2}></img>&nbsp;Send an email,helpus24@gmail.com</p></div>
+                      <div className='col-6 col-sm-4'><p className='text-light'><img src={web3}></img>&nbsp;Helpline and Support-8857002451</p></div>
                     </div>
                 </div>
             </div>
@@ -28,12 +25,12 @@ export default function About1() {
 
                     <h1 className=''><img src={v}></img></h1>
 
-                    <div className='col ps-5'>
+                    <div className='col p1'>
                     <img src={web} className=''></img>
 
                         
                     </div>
-                    <div className='col text-end'>
+                    <div className='col text-align1'>
                         <img src={leader} className=''></img>
                     </div>
                 </div>

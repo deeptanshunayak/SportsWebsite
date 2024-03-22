@@ -3,7 +3,7 @@ import web1 from './Images/Brand logo.svg'
 export default function Navbar1() {
     return (
         <>
-        <nav class=' navbar navbar-expand-lg bg-black ' data-bs-theme="dark">
+        <nav class=' navbar navbar-expand-lg bg-black ' >
         <div class="container-fluid">
           <img src={web1} className='imager'></img>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

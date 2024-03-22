@@ -13,7 +13,7 @@ export default function Mission() {
                        
                        
                         
-                        <div className='col-2'>
+                        <div className='col-6 col-sm-2'>
                             <p className='text-center pt-3'><img src={web1}></img></p>
                             <p className='text-center setter'>To provide sports talent opportunity to compete in tournaments at all levels.</p>
                             <p className='text-center pt-3'><img src={web1}></img></p>
@@ -21,10 +21,10 @@ export default function Mission() {
                             <p className='text-center pt-3'><img src={web1}></img></p>
                             <p className='text-center setter'>To arrange for coaching at district, state and National levels.</p>
                         </div>
-                        <div className='col-8'>
+                        <div className='col-8 displayer'>
                             <img src={web} class="d-block w-100" alt="..." />
                         </div>
-                        <div className='col-2'>
+                        <div className='col-6 col-sm-2'>
                         <p className='text-center pt-3'><img src={web1}></img></p>
                             <p className='text-center setter'>Revive the sports culture in India at grassroot level</p>
                             <p className='text-center pt-3'><img src={web1}></img></p>

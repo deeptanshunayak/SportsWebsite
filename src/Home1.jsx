@@ -14,7 +14,7 @@ const Home1 = () => {
                         
                         <div className='col'>
                             <h4 className='setcolor'>Know About Our Organisations</h4>
-                            <h1><img src={v}></img></h1>
+                            <h1><img src={v} className='img-align'></img></h1>
                             <p className='textboom'>The A4SBA  aims to encourage sports all over the country, thus allowing the population to harness the power of sports through its cross-cutting influence, namely,holistic development of children & youth, community development, social integration, gender equality, healthy lifestyle, national pride and economic opportunities related to sports development.</p>
 
                             <p className='pt-5'>We Focus on:</p>
