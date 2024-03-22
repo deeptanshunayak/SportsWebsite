@@ -134,7 +134,7 @@ font-family: "Outfit", sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  height: 170vh;
+  height: 160vh;
 }
 .fixed-top{
   top: auto !important;

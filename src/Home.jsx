@@ -3,7 +3,8 @@ import Navbar from './Navbar'
 import web from '../src/Images/Image4.png'
 import web1 from '../src/Images/image.png'
 import web2 from '../src/Images/Image5.png'
-import web3 from '../src/Images/Imageadd.svg'
+import web3 from '../src/Images/nr.jpg'
+import web4 from '../src/Images/Bp.jpg'
 import v1 from '../src/Images/Item.svg'
 import v2 from '../src/Images/Item (1).svg'
 import v3 from '../src/Images/Item (2).svg'
@@ -31,8 +32,8 @@ const Home = () => {
                 
                 <div class="carousel-item active c-item ">
                  
-                  <img src={web} class="d-block w-100 sizing image-align" alt="..." />
-                 
+                  <img src={web} class="w-100 sizing image-align" alt="..." />
+                  
                   <div class="carousel-caption top-0 d-md-block">
                   <div className='col-6'>
                     <h1 className='hfixer fade-in'>Let's Retain & Grow Young talent</h1>
@@ -43,7 +44,8 @@ const Home = () => {
                 </div>
                 <div class="carousel-item c-item">
                 
-                  <img src={web1} class="d-block w-100 sizing image-align" alt="..." />
+                  <img src={web1} class="w-100 sizing image-align" alt="..." />
+                  
                   <div class="carousel-caption top-0 d-md-block">
                     <div className='col-6'>
                     <h1 className='hfixer fade-in'>Let's Retain & Grow Young talent</h1>

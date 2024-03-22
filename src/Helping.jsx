@@ -1,9 +1,11 @@
 import React from 'react'
 import Count from 'react-countup';
+
 export default function Helping() {
   return (
 
     <div className='overflow1'>
+      
       <div class="container text-center">
         <div className='row align-items-center'>
           <h1 className='text-center pt-5 pb-3 mt-5'>Helping</h1>
@@ -34,6 +36,7 @@ export default function Helping() {
           </div>
         </div>
       </div>
+      
     </div>
   )
 }
