@@ -1,7 +1,7 @@
 import React from 'react'
-import terms from './Images/Terms.png'
+import terms from './Images/terms1.png'
 import Navbar1 from './Navbar1'
-export default function Terms() {
+export default function Terms1() {
   return (
 
     <div className='overflow1 hero'>

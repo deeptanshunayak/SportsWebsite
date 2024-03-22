@@ -14,9 +14,9 @@ export default function About1() {
                 <div class="container">
                     <div className='row pt-3 pb-3'>
 
-                    <div className='col-6 col-sm-4'><p className='text-light'><img src={web1}></img>&nbsp;The Strand 14 Sector,Faridabad,Haryana</p></div>
-                      <div className='col-6 col-sm-4'><p className='text-light'><img src={web2}></img>&nbsp;Send an email,helpus24@gmail.com</p></div>
-                      <div className='col-6 col-sm-4'><p className='text-light'><img src={web3}></img>&nbsp;Helpline and Support-8857002451</p></div>
+                    <div className='col-12 col-sm-4'><p className='text-light'><img src={web1}></img>&nbsp;The Strand 14 Sector,Faridabad,Haryana</p></div>
+                      <div className='col-12 col-sm-4'><p className='text-light'><img src={web2}></img>&nbsp;Send an email,helpus24@gmail.com</p></div>
+                      <div className='col-12 col-sm-4'><p className='text-light'><img src={web3}></img>&nbsp;Helpline and Support-8857002451</p></div>
                     </div>
                 </div>
             </div>

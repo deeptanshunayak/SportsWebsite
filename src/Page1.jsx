@@ -15,8 +15,12 @@ export default function Page1() {
       <Home1></Home1>
       <About></About>
       <Quotes1></Quotes1>
+      <section id='sports'>
       <Home2></Home2>
+      </section>
+      <section id='form'>
       <Form></Form>
+      </section>
       <Bottom></Bottom>
     </div>
   )

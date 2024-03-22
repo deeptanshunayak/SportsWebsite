@@ -8,7 +8,7 @@ const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   const [color,setcolor]=useState(false);
   const changecolor=()=>{
-    if(window.scrollY>=90){
+    if(window.scrollY>=10){
       setcolor(true)
     }
     else{
@@ -34,17 +34,17 @@ const Navbar = () => {
                 <a class="nav-link" href="/page">About</a>
               </li>
               <li class="nav-item padder">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#form">Contact</a>
               </li>
               <li class="nav-item padder">
-                <a class="nav-link" href="#">Sports</a>
+                <a class="nav-link" href="#sports">Sports</a>
               </li>
               <li class="nav-item dropdown padder">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             T & C
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Terms & Condition (general)</a></li>
+            <li><a class="dropdown-item" href="/tc1">Terms & Condition (General)</a></li>
             <li><a class="dropdown-item" href="/tc">Terms & Condition (Atheletics)</a></li>
             
             

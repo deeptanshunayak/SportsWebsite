@@ -1,5 +1,5 @@
 import React from 'react'
-import web from './Images/mission.svg'
+import web from './Images/mission2.svg'
 import web1 from './Images/m1.svg'
 import v from './Images/mission1.png'
 export default function Mission() {
@@ -13,7 +13,7 @@ export default function Mission() {
                        
                        
                         
-                        <div className='col-6 col-sm-2'>
+                        <div className='col-6 col-sm-2 pt-5'>
                             <p className='text-center pt-3'><img src={web1}></img></p>
                             <p className='text-center setter'>To provide sports talent opportunity to compete in tournaments at all levels.</p>
                             <p className='text-center pt-3'><img src={web1}></img></p>
@@ -24,7 +24,7 @@ export default function Mission() {
                         <div className='col-8 displayer'>
                             <img src={web} class="d-block w-100" alt="..." />
                         </div>
-                        <div className='col-6 col-sm-2'>
+                        <div className='col-6 col-sm-2 pt-5'>
                         <p className='text-center pt-3'><img src={web1}></img></p>
                             <p className='text-center setter'>Revive the sports culture in India at grassroot level</p>
                             <p className='text-center pt-3'><img src={web1}></img></p>

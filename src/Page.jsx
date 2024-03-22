@@ -13,7 +13,9 @@ export default function Page() {
       <Navbar1></Navbar1>
       <About1></About1>
       <Mission></Mission>
+      <section id='vision'>
       <Vision></Vision>
+      </section>
       <Scouting></Scouting>
       <Eligibility></Eligibility>
       <Home2></Home2>

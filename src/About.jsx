@@ -16,7 +16,8 @@ export default function About() {
                         </div>
                         
                         <div className='col-12 col-sm-7'>
-                            <img src={image} className='img-fluid'></img>
+
+                          <a href='/page'> <img src={image} className='img-fluid'></img></a>
                         </div>
                         </div>         
 

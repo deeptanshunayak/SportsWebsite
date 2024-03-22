@@ -33,75 +33,75 @@ const Home2 = () => {
                         <h1 className='text-light text-center'>Sports & Games</h1>
                         <div className='col'>
                             <div className='row'>
-                                <h3 className='text-light'>Jumps</h3>
-                                <div className='col'>
+                                <h3 className='text-light pb-3 ps-3'>Jumps</h3>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s1}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s2}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s3}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s4}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col text-center'>
 
                                 </div>
-                                <div className='col'>
+                                <div className='col text-center'>
 
                                 </div>
-                                <div className='col'>
+                                <div className='col text-center'>
 
                                 </div>
-                                <div className='col'>
+                                <div className='col text-center'>
 
                                 </div>
 
 
                             </div>
                             <div className='row'>
-                                <h3 className='text-light pt-5'>Combat</h3>
-                                <div className='col'>
+                                <h3 className='text-light pt-5 pb-3 ps-3'>Combat</h3>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s5}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s6}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s7}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s8}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s9}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s10}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col displayer'>
 
                                 </div>
-                                <div className='col'>
+                                <div className='col displayer'>
 
                                 </div>
 
 
                             </div>
                             <div className='row'>
-                                <h3 className='text-light pt-5'>Throws</h3>
-                                <div className='col'>
+                                <h3 className='text-light pt-5 pb-3 ps-3'>Throws</h3>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s11}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s12}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s13}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s14}></img>
                                 </div>
                                 <div className='col'>
@@ -120,40 +120,40 @@ const Home2 = () => {
 
                             </div>
                             <div className='row'>
-                                <h3 className='text-light pt-5'>More</h3>
-                                <div className='col'>
+                                <h3 className='text-light pt-5 pb-3 ps-3'>Field</h3>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s15}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s16}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s17}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s18}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s19}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s20}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s21}></img>
                                 </div>
-                                <div className='col'>
+                                <div className='col ps-4 pt-2'>
                                     <img src={s22}></img>
                                 </div>
 
                             </div>
                             <div className='row'>
-                                <h3 className='text-light pt-5'>Atheletics Track</h3>
+                                <h3 className='text-light pt-5 pb-3 ps-3'>Atheletics Track</h3>
                                 <div className='col'>
                                     <img src={s23}></img>
                                 </div>
                                 <div className='col'>
-                                    <p className='text-light'>sprint</p>
+                                    <p className='text-light'>Sprint</p>
                                     <p className='text-light'>Middle Distance</p>
                                     <p className='text-light'>Long Distance</p>
                                 </div>
@@ -166,9 +166,9 @@ const Home2 = () => {
                                     <img src={s24}></img>
                                 </div>
                                 <div className='col'>
-                                    <p className='text-light'></p>
-                                    <p className='text-light'>60m,100m,110m,400m</p>
-                                    <p className='text-light'></p>
+                                    <p></p>
+                                    <p className='text-light text-left'>60m<br className='displayer1'></br>100m<br className='displayer1'></br>110m<br className='displayer1'></br>400m</p>
+                                    <p></p>
 
                                 </div>
                                 <div className='col'>
@@ -176,7 +176,7 @@ const Home2 = () => {
                                 </div>
                                 <div className='col'>
                                     <p></p>
-                                    <p className='text-light'>4x100m,4x400m</p>
+                                    <p className='text-light'>4x100m,<br className='displayer1'></br>4x400m</p>
                                     <p></p>
                                 </div>
                                 <div className='col'>

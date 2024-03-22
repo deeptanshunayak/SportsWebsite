@@ -17,6 +17,7 @@ import Mission from './Mission.jsx';
 import Page from './Page.jsx';
 import Page1 from './Page1.jsx';
 import Terms from './Terms.jsx';
+import Terms1 from './Terms1.jsx';
 function App() {
   return (
     <div className="App">
@@ -27,7 +28,7 @@ function App() {
       <Route path='/' Component={Page1}/>
       <Route path='/page' Component={Page}/>
       <Route path='/tc' Component={Terms}/>
-      
+      <Route path='/tc1' Component={Terms1}/> 
       
      </Routes>
    </switch>
