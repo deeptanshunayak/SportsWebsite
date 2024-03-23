@@ -135,7 +135,7 @@ font-family: "Outfit", sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  height: 175vh;
+  height: 210vh;
 }
 .fixed-top{
   top: auto !important;
@@ -152,6 +152,7 @@ font-family: "Outfit", sans-serif;
 .super{
   font-family: "Outfit", sans-serif;
   font-weight: 600;
+  color: #fff;
 }
 .backf{
   background-image: url('./Images/flag.svg');
@@ -284,7 +285,12 @@ font-family: "Outfit", sans-serif;
 .navbar-toggler {
   border: 1px solid white !important;
 }
-
+.mission{
+  padding-left: 4rem;
+}
+.mission1{
+  padding-right: 4rem;
+}
 @media only screen and (max-width: 1290px){
   .align{
     font-size: 22px;
@@ -294,7 +300,13 @@ font-family: "Outfit", sans-serif;
     
   }
   .back{
-    height: 175vh;
+    height: 215vh;
+  }
+  .mission{
+    padding-left: 2.5rem;
+  }
+  .mission1{
+    padding-right: 2.5rem;
   }
 }
 @media only screen and (max-width: 760px){
@@ -358,12 +370,18 @@ font-family: "Outfit", sans-serif;
       display: block;
     }
     .back{
-      height: 215vh;
+      height: 220vh;
     }
     .align{
       font-size: 18px;
       font-weight: 600;
       line-height: 22px;
       font-family: "Montserrat", sans-serif;
+    }
+    .mission{
+      padding-left: 0rem;
+    }
+    .mission1{
+      padding-right: 0rem;
     }
 }

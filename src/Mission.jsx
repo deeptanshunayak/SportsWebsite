@@ -13,21 +13,21 @@ export default function Mission() {
                        
                        
                         
-                        <div className='col-6 col-sm-2 pt-5'>
-                            <p className='text-center pt-3'><img src={web1}></img></p>
-                            <p className='text-center setter'>To provide sports talent opportunity to compete in tournaments at all levels.</p>
-                            <p className='text-center pt-3'><img src={web1}></img></p>
+                        <div className='col-6 col-sm-3 pt-5'>
+                            <p className='text-center pt-3 mission'><img src={web1}></img></p>
+                            <p className='text-center setter mission'>To provide sports talent opportunity to compete in tournaments at all levels.</p>
+                            <p className='text-center pt-5'><img src={web1}></img></p>
                             <p className='text-center setter'>To build teams at various levels leading up to the international stage.</p>
-                            <p className='text-center pt-3'><img src={web1}></img></p>
-                            <p className='text-center setter'>To arrange for coaching at district, state and National levels.</p>
+                            <p className='text-center pt-5 mission'><img src={web1}></img></p>
+                            <p className='text-center setter mission'>To arrange for coaching at district, state and National levels.</p>
                         </div>
-                        <div className='col-8 displayer'>
+                        <div className='col-6 displayer'>
                             <img src={web} class="d-block w-100" alt="..." />
                         </div>
-                        <div className='col-6 col-sm-2 pt-5'>
-                        <p className='text-center pt-3'><img src={web1}></img></p>
-                            <p className='text-center setter'>Revive the sports culture in India at grassroot level</p>
-                            <p className='text-center pt-3'><img src={web1}></img></p>
+                        <div className='col-6 col-sm-3 pt-5'>
+                        <p className='text-center pt-3 mission1'><img src={web1}></img></p>
+                            <p className='text-center setter mission1'>Revive the sports culture in India at grassroot level</p>
+                            <p className='text-center pt-5'><img src={web1}></img></p>
                             <p className='text-center setter'>dentify talented players all over the nation</p>
                         </div>
                     </div>

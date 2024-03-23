@@ -8,7 +8,7 @@ export default function Eligibility() {
                     <div className='row pt-5 pb-5'>
                         <h1><img src={web1} className='img-align'></img></h1>
                         <div className='col ps-5'>
-                            <button className='button-17'>Contact Now</button>
+                           
                         </div>
                         <div className='col'><h2 className='fonter1'>All schools in India, irrespective of description, 
                             ownership or affiliation, are eligible to participate in the tournaments in :</h2></div>
