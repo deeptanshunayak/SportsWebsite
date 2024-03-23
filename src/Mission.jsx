@@ -27,8 +27,11 @@ export default function Mission() {
                         <div className='col-6 col-sm-3 pt-5'>
                         <p className='text-center pt-3 mission1'><img src={web1}></img></p>
                             <p className='text-center setter mission1'>Revive the sports culture in India at grassroot level</p>
-                            <p className='text-center pt-5'><img src={web1}></img></p>
-                            <p className='text-center setter'>dentify talented players all over the nation</p>
+                             <br className='displayer'></br>
+                             <br className='displayer'></br>
+                             <br className='displayer'></br>
+                            <p className='text-center pt-5 mission1'><img src={web1}></img></p>
+                            <p className='text-center setter mission1'>dentify talented players all over the nation</p>
                         </div>
                     </div>
                 </div>
