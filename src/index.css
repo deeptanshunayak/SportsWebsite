@@ -385,6 +385,10 @@ font-family: "Outfit", sans-serif;
     .mission1{
       padding-right: 0rem;
     }
+    .img-align2{
+      height: 110px;
+    width: 340px;
+    }
 }
 @media only screen and (max-width: 420px){
   .back{
@@ -397,6 +401,23 @@ font-family: "Outfit", sans-serif;
   }
   .img-align{
     height: 110px;
-    width: 360px;
+    width: 320px;
+  }
+  .img-align2{
+    height: 110px;
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 370px){
+  .back{
+  height:260vh;
+  }
+  .img-align{
+    height: 110px;
+    width: 340px;
+  }
+  .img-align2{
+    height: 110px;
+    width: 300px;
   }
 }

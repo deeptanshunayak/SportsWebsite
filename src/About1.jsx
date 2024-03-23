@@ -25,14 +25,14 @@ export default function About1() {
             <div class="container">
                 <div className='row pt-5'>
 
-                    <h1 className=''><img src={v}></img></h1>
+                    <h1 className='img-align2 pb-5'><img src={v}></img></h1>
 
-                    <div className='col p1'>
+                    <div className='col p1 pt-5'>
                     <img src={web} className=''></img>
 
                         
                     </div>
-                    <div className='col text-align1'>
+                    <div className='col text-align1 pt-5'>
                         <img src={leader} className=''></img>
                     </div>
                 </div>
