@@ -12,12 +12,14 @@ export default function About1() {
         <div className='overflow1 hero'>
             <div className='back1'>
                 <div class="container">
-                    <div className='row pt-3 pb-3'>
-
-                    <div className='col-12 col-sm-4'><p className='text-light'><img src={web1}></img>&nbsp;The Strand 14 Sector,Faridabad,Haryana</p></div>
-                      <div className='col-12 col-sm-4'><p className='text-light'><img src={web2}></img>&nbsp;Send an email,helpus24@gmail.com</p></div>
-                      <div className='col-12 col-sm-4'><p className='text-light'><img src={web3}></img>&nbsp;Helpline and Support-8857002451</p></div>
+                    <div className='row pt-3 pb-3 '>
+                   
+                    <div className='col-4'><p className='text-light'><img src={web1}></img>&nbsp;<br className='displayer1'></br>The Strand 14 Sector,<br  className='displayer1'></br>Faridabad,Haryana</p></div>
+                      <div className='col-4'><p className='text-light'><img src={web2}></img>&nbsp;<br  className='displayer1'></br>Send an email,<br  className='displayer1'></br>helpus24<br  className='displayer1'></br>@gmail.com</p></div>
+                      <div className='col-4'><p className='text-light'><img src={web3}></img>&nbsp;<br  className='displayer1'></br>Helpline and Support-8857002451</p></div>
+                    
                     </div>
+                    
                 </div>
             </div>
             <div class="container">
