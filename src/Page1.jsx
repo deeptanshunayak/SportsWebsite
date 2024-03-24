@@ -17,7 +17,7 @@ export default function Page1() {
       <About></About>
       <Quotes1></Quotes1>
       <section id='sports'>
-      <Sports></Sports>
+      <Home2></Home2>
       </section>
       <section id='form'>
       <Form></Form>

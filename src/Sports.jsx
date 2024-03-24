@@ -24,154 +24,15 @@ import s22 from './Images/22.svg'
 import s23 from './Images/23.svg'
 import s24 from './Images/24.svg'
 import s25 from './Images/25.svg'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 export default function Sports() {
   return (
   <>
-  <div className='overflow1 back'>
-                <div class="container pt-5">
-                    <div className='row'>
-                        <h1 className='text-light text-center'>Sports & Games</h1>
-                        <div className='col'>
-                            <div className='row'>
-                                <h3 className='text-light pb-3 ps-3'>Jumps</h3>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s1}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s2}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s3}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s4}></img>
-                                </div>
-                                <div className='col text-center'>
+ 
+  <div className='overflow1 back2'>
 
-                                </div>
-                                <div className='col text-center'>
-
-                                </div>
-                                <div className='col text-center'>
-
-                                </div>
-                                <div className='col text-center'>
-
-                                </div>
-
-
-                            </div>
-                            <div className='row'>
-                                <h3 className='text-light pt-5 pb-3 ps-3'>Combat</h3>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s5}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s6}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s7}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s8}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s9}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s10}></img>
-                                </div>
-                                <div className='col displayer'>
-
-                                </div>
-                                <div className='col displayer'>
-
-                                </div>
-
-
-                            </div>
-                            <div className='row'>
-                                <h3 className='text-light pt-5 pb-3 ps-3'>Throws</h3>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s11}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s12}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s13}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s14}></img>
-                                </div>
-                                <div className='col'>
-
-                                </div>
-                                <div className='col'>
-
-                                </div>
-                                <div className='col'>
-
-                                </div>
-                                <div className='col'>
-
-                                </div>
-
-
-                            </div>
-                            <div className='row'>
-                                <h3 className='text-light pt-5 pb-3 ps-3'>Field</h3>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s15}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s16}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s17}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s18}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s19}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s20}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s21}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'>
-                                    <img src={s22}></img>
-                                </div>
-                                <div className='col ps-4 pt-2'></div>
-
-                            </div>
-                            <div className='row'>
-                                <h3 className='text-light pt-5 pb-3 ps-3'>Atheletics Track</h3>
-                               <div className='col'>
-                               <p className='super'> <img src={s23}></img>&nbsp;&nbsp;&nbsp;&nbsp;Sprints-60m,&nbsp;100m,&nbsp;200m,&nbsp;400m <br className='displayer1'></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                               Middle Distance-&nbsp;800m,&nbsp;1500m,&nbsp;3000m<br className='displayer1'></br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Long Distance-&nbsp;5000m,&nbsp;10000m</p>
-                               </div>
-                            </div>
-                            <div className='row'>
-                                <div className='col'>
-                                    <p className='super'><img src={s24}></img>&nbsp;&nbsp;&nbsp;&nbsp;60m,&nbsp;100m,&nbsp;110m,&nbsp;400m</p>
-                                </div>
-                            </div>
-                            <div className='row'>
-                                <div className='col'>
-                                    <p className='super'><img src={s25}></img>&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;x&nbsp;100m&nbsp;4&nbsp;x&nbsp;400m</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
+  </div>
+ 
   </>
   )
 }

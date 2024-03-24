@@ -137,6 +137,14 @@ font-family: "Outfit", sans-serif;
   display: flex;
   height: 210vh;
 }
+.back2{
+  background-image: url('./Images/back2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 120vh;
+}
 .fixed-top{
   top: auto !important;
 }
@@ -371,7 +379,9 @@ font-family: "Outfit", sans-serif;
       display: block;
     }
     .back{
-      height: 220vh;
+      background-image: none;
+      background-color: rgb(37,0,51);
+      height: fit-content;
     }
     .align{
       font-size: 18px;
@@ -390,15 +400,9 @@ font-family: "Outfit", sans-serif;
     width: 340px;
     }
 }
-@media only screen and (max-width: 420px){
-  .back{
-    height: 230vh;
-  }
-}
+
 @media only screen and (max-width: 400px){
-  .back{
-    height: 240vh;
-  }
+  
   .img-align{
     height: 110px;
     width: 320px;
@@ -409,9 +413,7 @@ font-family: "Outfit", sans-serif;
   }
 }
 @media only screen and (max-width: 370px){
-  .back{
-  height:260vh;
-  }
+ 
   .img-align{
     height: 110px;
     width: 340px;
