@@ -135,7 +135,7 @@ font-family: "Outfit", sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  height: 210vh;
+  height: fit-content;
 }
 .back2{
   background-image: url('./Images/back2.svg');
@@ -308,7 +308,7 @@ font-family: "Outfit", sans-serif;
     
   }
   .back{
-    height: 215vh;
+    height: fit-content;
   }
   .mission{
     padding-left: 2.5rem;

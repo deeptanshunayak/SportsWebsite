@@ -25,7 +25,7 @@ export default function About1() {
             <div class="container">
                 <div className='row pt-5'>
 
-                    <h1 className='img-align2 pb-5'><img src={v}></img></h1>
+                    <h1 className='pb-5'><img src={v} className='img-align2'></img></h1>
 
                     <div className='col p1 pt-5'>
                     <img src={web} className=''></img>
