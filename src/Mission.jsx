@@ -1,7 +1,8 @@
 import React from 'react'
 import web from './Images/mission2.svg'
 import web1 from './Images/m1.svg'
-import v from './Images/mission1.png'
+import v from './Images/Vector.svg'
+
 export default function Mission() {
     return (
         <>
@@ -9,7 +10,8 @@ export default function Mission() {
                 <div class="container pt-5">
                     <div className='row pt-5 pb-5'>
                         
-                        <h1 className='aligner'><img src={v}></img></h1>
+                        <h1 className=''><img src={v}></img></h1>
+                        <h1 className='position-absolute clear1'>Our Mission</h1>
                        
                        
                         

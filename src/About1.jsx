@@ -5,7 +5,7 @@ import leader from './Images/Leader1.svg'
 import web1 from './Images/Item.svg'
 import web2 from './Images/Item (1).svg'
 import web3 from './Images/Item (2).svg'
-import v from './Images/leadership.png'
+import v from './Images/Vector.svg'
 export default function About1() {
     return (
 
@@ -25,7 +25,8 @@ export default function About1() {
             <div class="container">
                 <div className='row pt-5'>
 
-                    <h1 className='pb-5'><img src={v} className='img-align2'></img></h1>
+                    <h1 className='pb-5'><img src={v} className=''></img></h1>
+                    <h1 className='clear2 position-absolute'>Our Leadership</h1>
 
                     <div className='col p1 pt-5'>
                     <img src={web} className=''></img>

@@ -299,6 +299,34 @@ font-family: "Outfit", sans-serif;
 .mission1{
   padding-right: 5rem;
 }
+.clear{
+  font-family:"Outfit", sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  color: black;
+  padding-top: 3rem;
+}
+.clear1{
+  font-family:"Outfit", sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  color: black;
+  padding-top: 3rem;
+}
+.clear2{
+  font-family:"Outfit", sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  color: black;
+  padding-top: 3rem;
+}
+.clear3{
+  font-family:"Outfit", sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  color: black;
+  padding-top: 3rem;
+}
 @media only screen and (max-width: 1290px){
   .align{
     font-size: 22px;
@@ -316,6 +344,8 @@ font-family: "Outfit", sans-serif;
   .mission1{
     padding-right: 2.5rem;
   }
+  
+  
 }
 
 @media only screen and (max-width: 760px){
@@ -341,7 +371,7 @@ font-family: "Outfit", sans-serif;
     .carousel-caption{
       text-align: left !important;
       left: 7% !important;
-      padding-top: 5rem !important;
+      padding-top: 12rem !important;
     }
     .carousel-inner{
       height: 50% !important;
@@ -354,6 +384,7 @@ font-family: "Outfit", sans-serif;
       height: 200px;
       width: 200px;
     }
+    
     .fonter1{
       font-size: 14px;
       font-weight: 600;
@@ -398,6 +429,28 @@ font-family: "Outfit", sans-serif;
     .img-align2{
       height: 110px;
     width: 340px;
+    }
+    .clear{
+      font-family:"Outfit", sans-serif;
+      font-weight: bolder;
+      font-size: 40px;
+      color: black;
+      padding-top: 5rem;
+      
+    }
+    .clear2{
+      font-family:"Outfit", sans-serif;
+  font-weight: bolder;
+  font-size: 45px;
+  color: black;
+  padding-top: 3rem;
+    }
+    .clear3{
+      font-family:"Outfit", sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
+  color: black;
+  padding-top: 3rem;
     }
 }
 

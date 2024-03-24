@@ -1,5 +1,5 @@
 import React from 'react'
-import terms from './Images/Terms.png'
+import terms from './Images/Vector.svg'
 import Navbar1 from './Navbar1'
 export default function Terms() {
   return (
@@ -8,7 +8,8 @@ export default function Terms() {
       <Navbar1></Navbar1>
       <div className='container'>
         <div className='row pt-5'>
-          <h1><img src={terms} className='img-align'></img></h1>
+          <h1><img src={terms} className=''></img></h1>
+          <h1 className='clear3 position-absolute'>Terms and Condition For Atheletes</h1>
         <ol>
   <li>'A4SBA Scholarship Programme’ (Hereinafter ‘the Scholarship Program’) is being conducted by A4SBA. ("A4SBA" / "Company") from APRIL 5, 2024 to March 31, 2025 ("Scholarship offer period") and is open for India Nationals Only.</li>
   <li>The Scholarship Program is applicable to individuals/candidates from Indian Origin. The documents for the same will be as prescribed by statutory norms and is open to those desirous candidates/ individuals who have all the requisite documents at the time of making an application. The specific details of the categories, eligibility criteria and entitlements of the Scholarship Program have been provided herein below.</li>
