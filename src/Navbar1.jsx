@@ -28,7 +28,7 @@ export default function Navbar1() {
             T & C
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="tc1">Terms & Condition (general)</a></li>
+            <li><a class="dropdown-item" href="tc1">Terms & Condition (General)</a></li>
             <li><a class="dropdown-item" href="/tc">Terms & Condition (Atheletics)</a></li>
             
             
