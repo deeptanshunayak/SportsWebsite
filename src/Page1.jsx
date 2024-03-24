@@ -7,6 +7,7 @@ import Quotes1 from './Quotes1'
 import Home2 from './Home2'
 import Form from './Form'
 import Bottom from './Bottom'
+import Sports from './Sports'
 export default function Page1() {
   return (
     <div>
@@ -16,7 +17,7 @@ export default function Page1() {
       <About></About>
       <Quotes1></Quotes1>
       <section id='sports'>
-      
+      <Sports></Sports>
       </section>
       <section id='form'>
       <Form></Form>
