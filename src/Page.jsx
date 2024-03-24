@@ -7,6 +7,7 @@ import Home2 from './Home2'
 import Terms from './Terms'
 import Eligibility from './Eligibility'
 import Navbar1 from './Navbar1'
+
 export default function Page() {
   return (
     <div>
