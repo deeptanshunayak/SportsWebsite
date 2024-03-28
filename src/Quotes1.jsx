@@ -3,7 +3,7 @@ import React from 'react'
 export default function Quotes1() {
   return (
     <div className='overflow1 tricolor'>
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"  data-bs-pause='false'>
   <div class="carousel-inner">
     <div class="carousel-item active">
        <div className='container'> 

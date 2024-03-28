@@ -299,6 +299,9 @@ font-family: "Outfit", sans-serif;
 .mission1{
   padding-right: 5rem;
 }
+.alignit{
+  align-items: center !important;
+}
 .clear{
   font-family:"Outfit", sans-serif;
   font-weight: bolder;

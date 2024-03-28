@@ -10,7 +10,7 @@ export default function Helping() {
         <div className='row align-items-center'>
           <h1 className='text-center pt-5 pb-3 mt-5'>Helping</h1>
           <div className='col'>
-            <div className='text-center padder1'>
+            <div className='padder1'>
               <div className='circle'>
                 <h1 className='text-center text-light padd'> <Count start={0} end={87} duration={2} delay={3} />% </h1>
               </div>

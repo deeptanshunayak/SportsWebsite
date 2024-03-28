@@ -26,11 +26,12 @@ const Home = () => {
         <div className='row'>
          <Navbar className='pt-5'></Navbar>
           <div className='col-12 mx-auto'>
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleSlidesOnly" class="carousel slide"  data-bs-ride="carousel" 
+            data-bs-pause="false">
              
               <div class="carousel-inner">
                 
-                <div class="carousel-item active c-item ">
+                <div class="carousel-item active c-item " data-bs-interval="2500">
                  
                   <img src={web} class="w-100 sizing image-align" alt="..." />
                   
@@ -42,7 +43,7 @@ const Home = () => {
                     
                   </div>
                 </div>
-                <div class="carousel-item c-item">
+                <div class="carousel-item c-item" data-bs-interval="2500">
                 
                   <img src={web1} class="w-100 sizing image-align" alt="..." />
                   
@@ -53,7 +54,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item c-item">
+                <div class="carousel-item c-item" data-bs-interval="2500">
                 
                   <img src={web2} class="d-block w-100 sizing image-align" alt="..." />
                   <div class="carousel-caption top-0 d-md-block">
