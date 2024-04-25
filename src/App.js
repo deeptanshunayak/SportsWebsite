@@ -18,6 +18,7 @@ import Page from './Page.jsx';
 import Page1 from './Page1.jsx';
 import Terms from './Terms.jsx';
 import Terms1 from './Terms1.jsx';
+
 function App() {
   return (
     <div className="App">

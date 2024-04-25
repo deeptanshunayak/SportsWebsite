@@ -299,6 +299,39 @@ font-family: "Outfit", sans-serif;
 .mission1{
   padding-right: 5rem;
 }
+.zoomb:hover{
+  transition: 1s;
+  transform: scale(1.1);
+  padding-left: 100px;
+  
+
+}
+.carousel-control-prev{
+  color: #fff !important;
+ 
+}
+.carousel-control-prev-icon{
+background-color: #FC7813;
+
+border-radius: 50%;
+width: 30% !important;
+height: fit-content !important;
+}
+.button2{
+  border-radius: 15px;
+  width: 106px;
+  height: 34px;
+  background-color: #92E3A9;
+}
+.carousel-control-next{
+  color: #fff !important;
+}
+.carousel-control-next-icon{
+  background-color: #FC7813;
+  border-radius: 50%;
+  width: 30% !important;
+  height: fit-content !important;
+}
 .alignit{
   align-items: center !important;
 }
@@ -338,6 +371,7 @@ font-family: "Outfit", sans-serif;
     font-family: "Montserrat", sans-serif;
     
   }
+  
   .back{
     height: fit-content;
   }
@@ -468,6 +502,7 @@ font-family: "Outfit", sans-serif;
     width: 300px;
   }
 }
+
 @media only screen and (max-width: 370px){
  
   .img-align{

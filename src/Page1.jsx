@@ -19,9 +19,7 @@ export default function Page1() {
       <section id='sports'>
       <Home2></Home2>
       </section>
-      <section id='form'>
-      <Form></Form>
-      </section>
+      
       <Bottom></Bottom>
     </div>
   )
