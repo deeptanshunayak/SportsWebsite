@@ -23,6 +23,9 @@ export default function Navbar1() {
               <li class="nav-item padder">
                 <a class="nav-link" href="#">Sports</a>
               </li>
+              <li class="nav-item padder">
+                <a class="nav-link" href="/page2">Registration</a>
+              </li>
               <li class="nav-item dropdown padder">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             T & C

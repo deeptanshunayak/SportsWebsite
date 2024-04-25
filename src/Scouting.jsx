@@ -22,7 +22,7 @@ export default function Scouting() {
            {show &&
            <img src={web} className='d-block w-100'></img>}
            {show1 &&
-           <img src={web1} className='d-block w-100'></img>}
+           <img src={web} className='d-block w-100'></img>}
             {/* <div id="carouselExample" class="carousel slide">
               <div class="carousel-inner">
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">

@@ -323,6 +323,11 @@ height: fit-content !important;
   height: 34px;
   background-color: #92E3A9;
 }
+.button2:hover{
+  border-color: #138808;
+  transform: scale(1.03);
+  background-color: greenyellow;
+}
 .carousel-control-next{
   color: #fff !important;
 }
