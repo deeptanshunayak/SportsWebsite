@@ -131,7 +131,7 @@ font-family: "Outfit", sans-serif;
   font-weight: 600;
 }
 .back{
-  background-image: url('./Images/bg1.svg');
+  background-image: url('./Images/thebg.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -452,7 +452,7 @@ height: fit-content !important;
       display: block;
     }
     .back{
-      background-image: none;
+      background-image: url('./Images/thebg1.png');
       background-color: rgb(37,0,51);
       height: fit-content;
     }
