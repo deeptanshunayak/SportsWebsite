@@ -17,7 +17,7 @@ code {
   filter: brightness(0.5);
 }
 .animated{
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  animation: up-down 5s ;
 }
 
 .fonter{
@@ -33,18 +33,21 @@ code {
 
 @-webkit-keyframes up-down{
   0%{
-    
+    opacity: 0;
+    transform: translateX(-250px);
   }
   100%{
-    transform: translateY(10px);
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 @keyframes up-down{
-  0%{
-    
+  0%{opacity: 0;
+    transform: translateX(-50px);
   }
   100%{
-    transform: translateY(10px);
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 .c-item{
@@ -354,6 +357,9 @@ height: fit-content !important;
   color: black;
   padding-top: 3rem;
 }
+.leftp{
+  padding-left: 3rem;
+}
 .clear2{
   font-family:"Outfit", sans-serif;
   font-weight: bolder;
@@ -361,12 +367,23 @@ height: fit-content !important;
   color: black;
   padding-top: 3rem;
 }
+.bbg{
+  background-image: url(./Images/sporter1.png);
+  height: fit-content;
+  
+}
 .clear3{
   font-family:"Outfit", sans-serif;
   font-weight: bolder;
   font-size: 60px;
   color: black;
   padding-top: 3rem;
+}
+.dd1{
+  display: none;
+}
+.dd{
+  display: block;
 }
 @media only screen and (max-width: 1290px){
   .align{
@@ -426,7 +443,9 @@ height: fit-content !important;
       height: 200px;
       width: 200px;
     }
-    
+    .leftp{
+      padding-left: 0;
+    }
     .fonter1{
       font-size: 14px;
       font-weight: 600;
@@ -493,6 +512,18 @@ height: fit-content !important;
   font-size: 35px;
   color: black;
   padding-top: 3rem;
+    }
+    .bbg{
+      background-image: url(./Images/sporter.png);
+      
+      background-repeat: no-repeat;
+    }
+    .dd{
+      display: none;
+    }
+    .dd1{
+      display: block;
+      padding-left: 0;
     }
 }
 
