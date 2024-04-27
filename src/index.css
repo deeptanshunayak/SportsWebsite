@@ -474,6 +474,13 @@ height: fit-content !important;
       height: 120px;
       width: 390px;
     }
+    .district{
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: #EC8940;
+      padding-left: 0;
+    }
     .img-align-1{
       height: 200px;
       width: 200px;

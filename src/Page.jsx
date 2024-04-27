@@ -7,7 +7,7 @@ import Home2 from './Home2'
 import Terms from './Terms'
 import Eligibility from './Eligibility'
 import Navbar1 from './Navbar1'
-
+import Bottom from './Bottom'
 export default function Page() {
   return (
     <div>
@@ -20,7 +20,7 @@ export default function Page() {
       <Scouting></Scouting>
       <Eligibility></Eligibility>
       <Home2></Home2>
-     
+      <Bottom></Bottom>
     </div>
   )
 }
