@@ -8,6 +8,7 @@ import web5 from './Images/upper5.svg'
 import v from './Images/Vector.svg'
 import b1 from './Images/arrow.svg'
 export default function Scouting() {
+  var q=0;
   const [show, setshow] = useState(true);
   const [show1, setshow1] = useState(false);
   const [show2, setshow2] = useState(false);
@@ -29,7 +30,10 @@ export default function Scouting() {
             <button className='button2' onClick={() => { setshow(true); setshow1(false); setshow2(false) }}>&#9668;</button>
           </div>
           <div className='ps-5'>
-            <button className='button2' onClick={() => { setshow(false); setshow1(true); setshow2(false) }}>&#9658;</button>
+            <button className='button2' onClick={() => { setshow(false); setshow1(true); setshow2(false) ; q++
+            if(q==2){
+              setshow1(false); setshow2(true)
+            } }}>&#9658;</button>
           </div>
         </div>
       </div>
