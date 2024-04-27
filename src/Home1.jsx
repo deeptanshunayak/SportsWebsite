@@ -24,21 +24,21 @@ const Home1 = () => {
                                 <div className='col'>
                                     <img src={image} className=''></img>
                                     <p className='text-left tapper'><b>Health</b><p>
-                                    Sare Khelo Bharat prioritizes holistic well-being, offering expert advice, personalized fitness plans, and mental wellness guidance. We empower students to thrive physically and mentally, ensuring they're ready to conquer any challenge.</p></p>
+                                    Sare Khelo Bharat prioritizes holistic well-being, offering expert advice, personalized fitness plans, and mental wellness guidance. </p></p>
                                 </div>
                                 <div className='col'>
                                     <img src={image1} className=''></img>
                                     <p className='text-left tapper'><b>Education</b><p>
-                                    At Sare Khelo Bharat, we believe in unlocking potential through education. Our platform provides tailored academic support, career counseling, and skill-building resources, fostering a culture of learning excellence among students from diverse backgrounds.</p></p>
+                                    At Sare Khelo Bharat, we believe in unlocking potential through education. Our platform provides tailored academic support, </p></p>
                                 </div>
                                 <div className='col'>
                                     <img src={image2} className=''></img>
                                     <p className='text-left ps-2 tapper'><b>Livlihood</b><p>
-                                    Sare Khelo Bharat is dedicated to empowering futures. We offer practical insights, vocational training, and career development opportunities, equipping students with the skills needed to pursue rewarding livelihoods and contribute meaningfully to society.</p></p>
+                                    Sare Khelo Bharat is dedicated to empowering futures. We offer practical insights, vocational training, and career development </p></p>
                                 </div>
                                 <div className='col'>
                                     <img src={image3} className=''></img>
-                                    <p className='text-left tapper'><b>Empowerment</b><p>Fostering self-reliance and confidence, Sare Khelo Bharat empowers students with leadership training, mentorship programs, and access to resources. We enable them to realize their full potential and become catalysts for positive change in their communities.</p></p>
+                                    <p className='text-left tapper'><b>Empowerment</b><p>Fostering self-reliance and confidence, Sare Khelo Bharat empowers students with leadership training, mentorship </p></p>
                                 </div>
                                 
                             </div>

@@ -409,7 +409,7 @@ height: fit-content !important;
 }
 .tapper{
   font-family: "Montserrat", sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 400;
 }
 .clear3{
@@ -568,7 +568,7 @@ height: fit-content !important;
   padding-top: 3rem;
     }
     .medal{
-      background-image: url('./Images/Medal.svg');
+      background-image: url('./Images/medal1.svg');
       background-repeat: no-repeat;
      background-position-x: center;
      
