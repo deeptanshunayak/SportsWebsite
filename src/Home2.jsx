@@ -126,7 +126,7 @@ const Home2 = () => {
 
 
                                 </div>
-                                <div className='row zoomb' onClick={()=>{setshow(false);setshow1(false);setshow2(false);setshow3(false);setshow4(true)}}>
+                                <div className='row zoomb' onClick={()=>{setshow(false);setshow1(false);setshow2(false);setshow3(true);setshow4(false)}}>
                                     <h3 className='text-light pt-5 pb-3 ps-3'>Field</h3>
                                     <div className='col ps-4 pt-2'>
                                         <img src={s15}></img>

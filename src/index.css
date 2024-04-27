@@ -19,6 +19,9 @@ code {
 .animated{
   animation: up-down 5s ;
 }
+.animater{
+  animation: up 7s;
+}
 
 .fonter{
   font-size: 18px;
@@ -48,6 +51,15 @@ code {
   100%{
     opacity: 1;
     transform: translateX(0);
+  }
+}
+@keyframes up{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+   
+    transform: translateY(-100px);
   }
 }
 .c-item{
@@ -216,7 +228,7 @@ font-family: "Outfit", sans-serif;
 .button-17 {
   align-items: center;
   appearance: none;
-  background-color: #FC7813;
+  background-color: #FFE132;
   border-radius: 24px;
   border-style: none;
   box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
@@ -309,6 +321,21 @@ font-family: "Outfit", sans-serif;
   
 
 }
+
+.district{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #EC8940;
+  padding-left: 150px;
+}
+.district1{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+ 
+}
 .carousel-control-prev{
   color: #fff !important;
  
@@ -322,14 +349,15 @@ height: fit-content !important;
 }
 .button2{
   border-radius: 15px;
-  width: 106px;
-  height: 34px;
+  width: 120px;
+  height: 44px;
   background-color: #92E3A9;
 }
 .button2:hover{
   border-color: #138808;
-  transform: scale(1.03);
-  background-color: greenyellow;
+  transform: scale(1.13);
+  border-radius: 20px;
+ 
 }
 .carousel-control-next{
   color: #fff !important;
@@ -344,6 +372,13 @@ height: fit-content !important;
   align-items: center !important;
 }
 .clear{
+  font-family:"Outfit", sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  color: black;
+  padding-top: 3rem;
+}
+.clear4{
   font-family:"Outfit", sans-serif;
   font-weight: bolder;
   font-size: 60px;
@@ -506,12 +541,25 @@ height: fit-content !important;
   color: black;
   padding-top: 3rem;
     }
+    .clear4{
+      font-family:"Outfit", sans-serif;
+      font-weight: bolder;
+      font-size: 35px;
+      color: black;
+      padding-top: 3rem;
+    }
     .clear3{
       font-family:"Outfit", sans-serif;
   font-weight: bolder;
   font-size: 35px;
   color: black;
   padding-top: 3rem;
+    }
+    .medal{
+      background-image: url('./Images/Medal.svg');
+      background-repeat: no-repeat;
+     background-position-x: center;
+     
     }
     .bbg{
       background-image: url(./Images/sporter.png);
