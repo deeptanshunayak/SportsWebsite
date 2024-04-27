@@ -27,12 +27,15 @@ export default function Scouting() {
         </div>
         <div className='d-flex justify-content-center pb-5'>
           <div>
-            <button className='button2' onClick={() => { setshow(true); setshow1(false); setshow2(false) }}>&#9668;</button>
+            <button className='button2' onClick={() => { setshow(true); setshow1(false); setshow2(false);
+            if(q==1){
+              setshow(false); setshow1(true);
+            } }}>&#9668;</button>
           </div>
           <div className='ps-5'>
             <button className='button2' onClick={() => { setshow(false); setshow1(true); setshow2(false) ; q++
             if(q==2){
-              setshow1(false); setshow2(true)
+              setshow1(false); setshow2(true);q--;
             } }}>&#9658;</button>
           </div>
         </div>

@@ -18,27 +18,27 @@ const Home1 = () => {
                             
                             <p className='textboom'>The A4SBA  aims to encourage sports all over the country, thus allowing the population to harness the power of sports through its cross-cutting influence, namely,holistic development of children & youth, community development, social integration, gender equality, healthy lifestyle, national pride and economic opportunities related to sports development.</p>
 
-                            <p className='pt-5'><b>We Focus on:</b></p>
+                            <p className='pt-5 tapper'><b>We Focus on:</b></p>
                             <div className='displayer'>
                             <div className='row'>
                                 <div className='col'>
                                     <img src={image} className=''></img>
-                                    <p className='text-left'>Health<p>
+                                    <p className='text-left tapper'><b>Health</b><p>
                                     Sare Khelo Bharat prioritizes holistic well-being, offering expert advice, personalized fitness plans, and mental wellness guidance. We empower students to thrive physically and mentally, ensuring they're ready to conquer any challenge.</p></p>
                                 </div>
                                 <div className='col'>
                                     <img src={image1} className=''></img>
-                                    <p className='text-left'>Education<p>
+                                    <p className='text-left tapper'><b>Education</b><p>
                                     At Sare Khelo Bharat, we believe in unlocking potential through education. Our platform provides tailored academic support, career counseling, and skill-building resources, fostering a culture of learning excellence among students from diverse backgrounds.</p></p>
                                 </div>
                                 <div className='col'>
                                     <img src={image2} className=''></img>
-                                    <p className='text-left ps-2'>Livlihood<p>
+                                    <p className='text-left ps-2 tapper'><b>Livlihood</b><p>
                                     Sare Khelo Bharat is dedicated to empowering futures. We offer practical insights, vocational training, and career development opportunities, equipping students with the skills needed to pursue rewarding livelihoods and contribute meaningfully to society.</p></p>
                                 </div>
                                 <div className='col'>
                                     <img src={image3} className=''></img>
-                                    <p className='text-left'>Empowerment<p>Fostering self-reliance and confidence, Sare Khelo Bharat empowers students with leadership training, mentorship programs, and access to resources. We enable them to realize their full potential and become catalysts for positive change in their communities.</p></p>
+                                    <p className='text-left tapper'><b>Empowerment</b><p>Fostering self-reliance and confidence, Sare Khelo Bharat empowers students with leadership training, mentorship programs, and access to resources. We enable them to realize their full potential and become catalysts for positive change in their communities.</p></p>
                                 </div>
                                 
                             </div>
@@ -47,28 +47,28 @@ const Home1 = () => {
                                 <div className='col'>
                                     <p>
                                     <img src={image} className=''></img></p>
-                                    <p className='text-left'>Health<p>
+                                    <p className='text-left'><b>Health</b><p>
                                     Sare Khelo Bharat prioritizes holistic well-being, offering expert advice, personalized fitness plans, and mental wellness guidance. We empower students to thrive physically and mentally, ensuring they're ready to conquer any challenge.</p></p>
                                 </div>
                                 <div className='col'>
                                     <img src={image1} className=''></img>
-                                    <p className='text-left'>Education<p>
+                                    <p className='text-left'><b>Education</b><p>
                                     At Sare Khelo Bharat, we believe in unlocking potential through education. Our platform provides tailored academic support, career counseling, and skill-building resources, fostering a culture of learning excellence among students from diverse backgrounds.</p></p>
                                 </div>
                                 <div className='col'>
                                     <img src={image2} className=''></img>
-                                    <p className='text-left'>Livlihood<p>
+                                    <p className='text-left'><b>Livlihood</b><p>
                                     Sare Khelo Bharat is dedicated to empowering futures. We offer practical insights, vocational training, and career development opportunities, equipping students with the skills needed to pursue rewarding livelihoods and contribute meaningfully to society.</p></p>
                                 </div>
                                 <div className='col'>
                                     <img src={image3} className=''></img>
-                                    <p className='text-left'>Empowerment<p>Fostering self-reliance and confidence, Sare Khelo Bharat empowers students with leadership training, mentorship programs, and access to resources. We enable them to realize their full potential and become catalysts for positive change in their communities.</p></p>
+                                    <p className='text-left'><b>Empowerment</b><p>Fostering self-reliance and confidence, Sare Khelo Bharat empowers students with leadership training, mentorship programs, and access to resources. We enable them to realize their full potential and become catalysts for positive change in their communities.</p></p>
                                 </div>
                                 
                             </div>
                         </div>
-                        <div className='col-12 col-sm-6 pt-3 dd animater'>
-                            <img src={medal} className='img-fluid'></img>
+                        <div className='col-12 col-sm-6 pt-3 dd'>
+                            <img src={medal} className='img-fluid animater'></img>
                         </div>
                     </div>
                 </div>

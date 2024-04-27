@@ -233,7 +233,7 @@ font-family: "Outfit", sans-serif;
   border-style: none;
   box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
   box-sizing: border-box;
-  color: #fff;
+  color: black;
   cursor: pointer;
   display: inline-flex;
   fill: currentcolor;
@@ -407,6 +407,11 @@ height: fit-content !important;
   height: fit-content;
   
 }
+.tapper{
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
 .clear3{
   font-family:"Outfit", sans-serif;
   font-weight: bolder;
@@ -567,6 +572,15 @@ height: fit-content !important;
       background-repeat: no-repeat;
      background-position-x: center;
      
+     
+    }
+    .medal::before{
+      position: relative;
+      background-image: url('./Images/Medal.svg');
+      background-repeat: no-repeat;
+     background-position-x: center;
+     opacity: 0.5;
+    
     }
     .bbg{
       background-image: url(./Images/sporter.png);
