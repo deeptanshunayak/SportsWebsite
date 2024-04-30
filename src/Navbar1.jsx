@@ -15,7 +15,7 @@ export default function Navbar1() {
                 <a class="nav-link" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item padder">
-                <a class="nav-link" href="/page">About</a>
+                <a class="nav-link" href="/page"> About Us</a>
               </li>
               <li class="nav-item padder">
                 <a class="nav-link" href="#">Contact</a>
