@@ -42,13 +42,13 @@ export default function Scouting() {
       </div>
       <div className='overflow1 hero bbg'>
         <div class="container pt-5">
-          <div className='row pt-5 pb-5'>
+          <div className='row  pb-5'>
 
 
             {show &&
               <div className=''>
                 <img src={web1} className='animated  dd'></img>
-                <img src={web3} className='animated  dd1'></img>
+                <img src={web3} className='animated  dd1 mb-5'></img>
               </div>
             }
             {show1 &&
@@ -59,7 +59,7 @@ export default function Scouting() {
             {show2 &&
               <div className=''>
                 <img src={web} className='animated  dd'></img>
-                <img src={web5} className='animated  dd1'></img>
+                <img src={web5} className='animated  dd1 pb-5'></img>
               </div>}
             {/* <div id="carouselExample" class="carousel slide">
               <div class="carousel-inner">

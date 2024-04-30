@@ -86,11 +86,13 @@ code {
   font-family: 'Amita';
 }
 .hfixer{
+  color: #92E3A9;
 font-size: 48px;
 font-weight: bolder;
 font-family: "Outfit", sans-serif;
 }
 .pfixer{
+  color: #FF8D1D;
   font-weight: 600;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
